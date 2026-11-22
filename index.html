@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <title>Блог Мандрівника</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="wrap">
+            <a class="logo" href="#top">🧭 Блог Мандрівника</a>
+            <nav><a href="#places">Місця</a><a href="#about">Про мене</a><a href="#subscribe">Підписка</a></nav>
+            <button class="btn" id="change_theme"></button>
+        </div>
+    </header>
+
+    <main id="top">
+        <div class="wrap">
+            <div class="hero">
+                <h1>Світ у кадрі</h1>
+                <p>Фотографії з подорожей та короткі нотатки про місця, які варто побачити.</p>
+                <a class="btn" href="#places">Дивитись місця</a>
+            </div>
+
+            <section id="places">
+                <h2>Останні подорожі</h2>
+                <div class="grid">
+                    <article class="card">
+                        <div class="photo p1"><span>Фото 1</span></div>
+                        <div class="body">
+                            <h3>Озеро Світязь</h3>
+                            <div class="meta">Україна · липень 2026</div>
+                            <p>Найглибше озеро країни: прозора вода, сосни та піщані пляжі. Найкраще їхати вранці, поки
+                                мало людей.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="photo p2"><span>Фото 2</span></div>
+                        <div class="body">
+                            <h3>Карпати, Говерла</h3>
+                            <div class="meta">Україна · серпень 2026</div>
+                            <p>Підйом займає близько п’яти годин. На вершині відкривається вид на всі довколишні хребти.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="photo p3"><span>Фото 3</span></div>
+                        <div class="body">
+                            <h3>Львів</h3>
+                            <div class="meta">Україна · вересень 2026</div>
+                            <p>Бруковані вулички, кав’ярні й дахи старого міста. Рекомендую піднятися на Високий Замок
+                                на заході сонця.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="photo p4"><span>Фото 4</span></div>
+                        <div class="body">
+                            <h3>Прага</h3>
+                            <div class="meta">Чехія · жовтень 2025</div>
+                            <p>Карлів міст на світанку майже порожній — ідеальний час для фото без натовпу.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="photo p5"><span>Фото 5</span></div>
+                        <div class="body">
+                            <h3>Краків</h3>
+                            <div class="meta">Польща · травень 2026</div>
+                            <p>Головний ринковий майдан і Вавель. Не пропустіть район Казімеж з його затишними барами.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="photo p6"><span>Фото 6</span></div>
+                        <div class="body">
+                            <h3>Стамбул</h3>
+                            <div class="meta">Туреччина · березень 2026</div>
+                            <p>Місто двох континентів. Паром через Босфор — найдешевша й найкраща оглядова екскурсія.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="about">
+                <h2>Про мене</h2>
+                <div class="about">
+                    <div class="avatar">Ваше фото</div>
+                    <p>Привіт! Я люблю подорожувати, фотографувати та ділитися враженнями. Цей блог — мій щоденник
+                        відкриттів: тут я публікую найцікавіші місця, які відвідав, і коротко розповідаю, що в них
+                        особливого.</p>
+                </div>
+            </section>
+
+            <section id="subscribe">
+                <h2>Нові нотатки на пошту</h2>
+                <form onsubmit="return false"><input type="email" placeholder="Ваш e-mail" aria-label="E-mail"><button
+                        class="btn" style="border:0;cursor:pointer">Підписатися</button></form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrap">© 2026 Блог Мандрівника · Макет для практичної роботи</div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
